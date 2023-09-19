@@ -1,0 +1,7 @@
+<i class="home__fas fas fa-user"></i>
+<i class="aboutdata__fas fas fa-download"></i>
+<i class="fas fa-graduation-cap"></i>
+<i class="fas fa-envelope"></i> 
+<i class="fas fa-phone"></i> 
+<i class="fas fa-map-marker-alt"></i>
+<i class="fas fa-paper-plane"></i>
