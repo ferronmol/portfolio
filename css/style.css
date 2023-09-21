@@ -2,6 +2,7 @@ body {
   margin: 0;
   overflow-x: auto;
   box-sizing: border-box;
+  font-size: 10px;
 }
 .container {
   max-width: 100%;
@@ -12,56 +13,57 @@ body {
 .aside {
   width: 30%;
   background-color: rgb(34, 34, 34);
+  display: flex;
   flex-direction: column;
   text-align: center;
   position: fixed;
   height: 100vh;
   top:0;
   left:0;
+  align-items: center;
+  justify-content: center;
 }
 .img_container {
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100px;
+  margin:1rem auto;
 }
 .img {
   border-radius: 50%;
-  max-width: 200px;
-  height: 200px;
+  width: 100%;
   /* border: 20px solid  #85da05; */
-  border: 20px solid #fc4b08;
+  border: 6px solid #fc4b08;
   object-fit: cover;
 }
 .name,
 .work {
   color: white;
+  font-size: 1rem;
 }
 .nav__container {
   display: flex;
-  max-width: 400px;
   margin-left: auto;
   margin-right: auto;
+  width: 60%;
+  justify-content: center;
 }
 .nav__list {
   padding:0 ;
   list-style: none;
+  width: 150px;
   
 }
 .nav__link {
   background-color: #313636;
   border-radius: 5px;
-  margin: 20px 0px;
-  max-width: 400px;
+  margin: 1rem 0px;
 }
 
 .nav__buttom {
   display: block;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 1.2rem;
   color: white;
-  margin: 4px;
-  padding: 10px 0;
-  width:400px;
+  width:150px;
 }
 .nav__link:hover {
   background-color: #85da05;
@@ -73,51 +75,57 @@ body {
   left: 30%;
   width: 70%;
   background-color: black;
-  padding-left: 100px;
+  padding-left: 80px;
 }
 .title {
   color: whitesmoke;
-  font-size: 80px;
-  margin: 50px 0px 0px 100px;
+  font-size: 2.5rem;
+  margin: 10px;
+  ;
 }
 .dif {
   color:#fc4b08;
 }
 .text {
-  font-size: 30px;
+  font-size: 1rem;
   color: whitesmoke;
+  line-height:1.5rem;
 }
 /* el boton */
 .button {
   background-color: #313636;
-  border-radius: 30px;
-  width: 300px;
+  border-radius: 22px;
+  width: 200px;
   color: #fc4b08;
-  font-size: 30px;
-  padding: 10px;
+  font-size: 1rem;
+  padding: 5px;
   text-align: center;
-  margin-left: 100px;
-  margin-top: 30px;
+  margin:0;
+  border:0;
 }
 .button:hover {
   background-color: #fc4b08;
+  color:#85da05
 }
 .button__link {
   text-decoration: none;
   color: #fff;
-  font-size: 30px;
-  margin: 10px;
+  font-size: 1.2rem;
+  padding: 0.8rem;
 }
 /* fin del boton de inicio */
 .inicio {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  min-height: 100vh;
 }
 /* parte de sobre mi */
 .sobre_mi {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
+  
 }
 .form {
   background-color: transparent;
